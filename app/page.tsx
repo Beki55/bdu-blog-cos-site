@@ -4,7 +4,7 @@ import { useTheme } from "./context/ThemeContext";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import ArticleCard from "../components/ArticleCard";
-import CTA from "../components/CTA";
+import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
 import { posts } from "../lib/data";
 
@@ -34,6 +34,8 @@ export default function Home() {
             </button>
           </div>
         </section>
+
+        <Gallery />
 
         {/* <CTA /> */}
       </main>
